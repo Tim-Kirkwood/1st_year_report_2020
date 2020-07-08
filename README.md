@@ -1,6 +1,8 @@
 # 1st_year_report_2020
 Code for first year report (PhD)
 
+
+
 “Cluster Architecture” section: Functional annotations for all DEM32671 cluster proteins were extracted using the “ClusterBlast function annotation”.  Run antiSMASH, download the antiSMASH .zip file and extract it. Then move the single .JSON file to the directory containing your script.  Files not included in this repository as they contain confidential information.  Script was developed for the antiSMASH output of the highly annotated genome used in this report, and may not work for a generic NCBI/RAST annotated genome.
 
 “Bioinformatic analysis of pbtX” section: The bioinformatic analysis described in the indicated section used the script “pbt ClusterBlast analyser”. To run this code, the antiSMASH file generated after analysis of the NCBI geneome discussed in the report must be extracted, and the .json file placed in the same directory as this script.
@@ -8,6 +10,9 @@ Code for first year report (PhD)
 “Mining MIBIG for characterised cluster trends” section: The bioinformatic analysis described in the indicated section used the script “MIBIG miner”. The JSON-format MIBIG database should be downloaded from https://mibig.secondarymetabolites.org/download. The code below should then be executed, ensuring the script is in the same directory as the JSON files. The file path for the .JSON file will need to be entered in line 12 (‘path’ variable).
 
 “Multiplex PCR primer design” section: The workflow described in this section was run using the python script “PrimerBLAST multiplexer”.  URLs linking to each primerBLAST run should be entered into the script in lines 47 to 58. The URLs will expire, so this program should be used within 24 hours of the original primerBLAST run. Expired URLS are included here as an example, and were generated from primerBLAST runs generating primers of 20, 25 and 30bp for each cluster. 
+
+
+\B REFERENCES
 
 AntiSMASH reference: 
 antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline
